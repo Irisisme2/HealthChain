@@ -27,7 +27,7 @@ import { Box, Grid } from "@chakra-ui/react";
 import Banner from "views/admin/profile/components/Banner";
 import General from "views/admin/profile/components/General";
 import Notifications from "views/admin/profile/components/Notifications";
-import Projects from "views/admin/profile/components/Projects";
+import Visits from "views/admin/profile/components/Visits";
 import Storage from "views/admin/profile/components/Storage";
 import Upload from "views/admin/profile/components/Upload";
 
@@ -55,9 +55,8 @@ export default function Overview() {
           banner={banner}
           avatar={avatar}
           name='Adela Parkson'
-          job='Product Designer'
-          posts='17'
-          followers='9.7k'
+          Age='26'
+          Patientnumber='6737721'
           following='274'
         />
         <Storage
@@ -88,7 +87,7 @@ export default function Overview() {
           "2xl": "1fr",
         }}
         gap={{ base: "20px", xl: "20px" }}>
-        <Projects
+        <Visits
           gridArea='1 / 2 / 2 / 2'
           banner={banner}
           avatar={avatar}

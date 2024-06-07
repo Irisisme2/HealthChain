@@ -15,6 +15,20 @@ export default function GeneralInformation(props) {
     "0px 18px 40px rgba(112, 144, 176, 0.12)",
     "unset"
   );
+
+  // Przykładowe dane medyczne
+  const medicalData = [
+    { title: "Blood Type", value: "A+" },
+    { title: "Height", value: "180 cm" },
+    { title: "Weight", value: "75 kg" },
+    { title: "Allergies", value: "Pollen, Penicillin" },
+    { title: "Medical Conditions", value: "Hypertension, Diabetes" },
+    { title: "Medications", value: "Metformin, Lisinopril" },
+    { title: "Last Checkup", value: "12/05/2023" },
+    { title: "Next Appointment", value: "10/12/2024" },
+    // Dodaj więcej danych medycznych według potrzeb
+  ];
+
   return (
     <Card mb={{ base: "0px", "2xl": "20px" }} {...rest}>
       <Text
@@ -22,47 +36,21 @@ export default function GeneralInformation(props) {
         fontWeight='bold'
         fontSize='2xl'
         mt='10px'
-        mb='4px'>
-        General Information
+        mb='4px'
+      >
+        Medical Information
       </Text>
       <Text color={textColorSecondary} fontSize='md' me='26px' mb='40px'>
-        As we live, our hearts turn colder. Cause pain is what we go through as
-        we become older. We get insulted by others, lose trust for those others.
-        We get back stabbed by friends. It becomes harder for us to give others
-        a hand. We get our heart broken by people we love, even that we give
-        them all...
       </Text>
       <SimpleGrid columns='2' gap='20px'>
-        <Information
-          boxShadow={cardShadow}
-          title='Education'
-          value='Stanford University'
-        />
-        <Information
-          boxShadow={cardShadow}
-          title='Languages'
-          value='English, Spanish, Italian'
-        />
-        <Information
-          boxShadow={cardShadow}
-          title='Department'
-          value='Product Design'
-        />
-        <Information
-          boxShadow={cardShadow}
-          title='Work History'
-          value='Google, Facebook'
-        />
-        <Information
-          boxShadow={cardShadow}
-          title='Organization'
-          value='Simmmple Web LLC'
-        />
-        <Information
-          boxShadow={cardShadow}
-          title='Birthday'
-          value='20 July 1986'
-        />
+        {medicalData.map((data, index) => (
+          <Information
+            key={index}
+            boxShadow={cardShadow}
+            title={data.title}
+            value={data.value}
+          />
+        ))}
       </SimpleGrid>
     </Card>
   );

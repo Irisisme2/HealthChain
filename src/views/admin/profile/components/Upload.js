@@ -57,8 +57,7 @@ export default function Upload(props) {
             my={{ base: "auto", "2xl": "10px" }}
             mx='auto'
             textAlign='start'>
-            Stay on the pulse of distributed projects with an anline whiteboard
-            to plan, coordinate and discuss
+            Upload your new documentation
           </Text>
           <Flex w='100%'>
             <Button

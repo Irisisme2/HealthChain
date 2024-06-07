@@ -1,3 +1,5 @@
+import React, { useMemo, useEffect, useState } from "react";
+import Web3 from "web3"; // Importuj bibliotekę Web3.js
 import {
   Flex,
   Table,
@@ -10,7 +12,6 @@ import {
   Tr,
   useColorModeValue,
 } from "@chakra-ui/react";
-import React, { useMemo } from "react";
 import {
   useGlobalFilter,
   usePagination,
@@ -24,6 +25,27 @@ import Menu from "components/menu/MainMenu";
 
 export default function CheckTable(props) {
   const { columnsData, tableData } = props;
+  const [web3, setWeb3] = useState(null);
+
+  // Funkcja do konfiguracji połączenia z MetaMask
+  const setupWeb3 = async () => {
+    if (window.ethereum) {
+      try {
+        // Ładuj provider Web3 z MetaMask
+        await window.ethereum.request({ method: "eth_requestAccounts" });
+        const provider = new Web3(window.ethereum);
+        setWeb3(provider);
+      } catch (error) {
+        console.error("User denied account access or error occurred", error);
+      }
+    } else {
+      console.error("MetaMask not detected");
+    }
+  };
+
+  useEffect(() => {
+    setupWeb3();
+  }, []); // Wywołaj setupWeb3() tylko raz podczas montowania komponentu
 
   const columns = useMemo(() => columnsData, [columnsData]);
   const data = useMemo(() => tableData, [tableData]);

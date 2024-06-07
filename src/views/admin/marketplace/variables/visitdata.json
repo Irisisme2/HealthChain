@@ -1,0 +1,73 @@
+[
+    {
+      "doctor": "Dr. Smith",
+      "place": "City Hospital",
+      "details": "Routine checkup",
+      "diagnosis": "Healthy",
+      "recommendations": ["Drink plenty of water", "Exercise regularly"]
+    },
+    {
+      "doctor": "Dr. Johnson",
+      "place": "Community Clinic",
+      "details": "Follow-up appointment",
+      "diagnosis": "Stable condition",
+      "recommendations": ["Continue medication", "Monitor blood pressure"]
+    },
+    {
+      "doctor": "Dr. Williams",
+      "place": "Private Practice",
+      "details": "Annual physical",
+      "diagnosis": "Mild hypertension",
+      "recommendations": ["Reduce salt intake", "Increase physical activity"]
+    },
+    {
+      "doctor": "Dr. Brown",
+      "place": "Specialist Center",
+      "details": "Specialist consultation",
+      "diagnosis": "Allergy",
+      "recommendations": ["Avoid allergens", "Use antihistamines as needed"]
+    },
+    {
+      "doctor": "Dr. Jones",
+      "place": "Health Clinic",
+      "details": "Vaccination appointment",
+      "diagnosis": "N/A",
+      "recommendations": ["Follow vaccination schedule"]
+    },
+    {
+      "doctor": "Dr. Miller",
+      "place": "Urgent Care",
+      "details": "Emergency visit",
+      "diagnosis": "Fractured arm",
+      "recommendations": ["Apply ice", "Rest the arm"]
+    },
+    {
+      "doctor": "Dr. Davis",
+      "place": "Pediatric Clinic",
+      "details": "Child wellness check",
+      "diagnosis": "Normal growth and development",
+      "recommendations": ["Continue vaccinations", "Healthy diet"]
+    },
+    {
+      "doctor": "Dr. Garcia",
+      "place": "Dental Office",
+      "details": "Dental cleaning",
+      "diagnosis": "Healthy teeth and gums",
+      "recommendations": ["Brush and floss regularly", "Schedule next appointment in 6 months"]
+    },
+    {
+      "doctor": "Dr. Rodriguez",
+      "place": "Eye Clinic",
+      "details": "Eye examination",
+      "diagnosis": "Nearsightedness",
+      "recommendations": ["Wear corrective lenses", "Regular eye checkups"]
+    },
+    {
+      "doctor": "Dr. Martinez",
+      "place": "Dermatology Center",
+      "details": "Skin check",
+      "diagnosis": "Sunburn",
+      "recommendations": ["Apply aloe vera gel", "Use sunscreen daily"]
+    }
+  ]
+  

@@ -1,21 +1,18 @@
-export const columnsDataDevelopment = [
+export const columnsDataPrescription = [
   {
-    Header: "NAME",
-    accessor: "name",
+    Header: "Prescription Number",
+    accessor: "number",
   },
   {
-    Header: "TECH",
-    accessor: "tech",
+    Header: "Issued By",
+    accessor: "issuedBy",
   },
   {
-    Header: "DATE",
-    accessor: "date",
-  },
-  {
-    Header: "PROGRESS",
-    accessor: "progress",
+    Header: "Valid Until",
+    accessor: "validUntil",
   },
 ];
+
 
 export const columnsDataCheck = [
   {

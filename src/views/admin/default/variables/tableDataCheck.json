@@ -2,30 +2,30 @@
   "name": ["Cardiologist Visit", false],
   "quantity": 1,
   "date": "12 Jan 2023",
-  "progress": 85.5
+  "price": 85.5
 },
 {
   "name": ["Endocrinologist Visit", true],
   "quantity": 1,
   "date": "21 Feb 2023",
-  "progress": 90.8
+  "price": 90.8
 },
 {
   "name": ["General Checkup", true],
   "quantity": 1,
   "date": "13 Mar 2023",
-  "progress": 80.3
+  "price": 80.3
 },
 {
   "name": ["Ophthalmologist Visit", true],
   "quantity": 1,
   "date": "24 Apr 2023",
-  "progress": 75.5
+  "price": 75.5
 },
 {
   "name": ["Dermatologist Visit", false],
   "quantity": 1,
   "date": "24 May 2023",
-  "progress": 60.2
+  "price": 60
 }
 ]

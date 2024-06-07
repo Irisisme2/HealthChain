@@ -12,8 +12,8 @@ export const columnsDataCheck = [
     accessor: "date",
   },
   {
-    Header: "PROGRESS",
-    accessor: "progress",
+    Header: "PRICE",
+    accessor: "price",
   },
 ];
 export const columnsDataComplex = [

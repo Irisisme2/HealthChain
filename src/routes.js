@@ -14,6 +14,7 @@ import MainDashboard from "views/admin/default";
 import NFTMarketplace from "views/admin/marketplace";
 import Profile from "views/admin/profile";
 import DataTables from "views/admin/dataTables";
+import HealthCommunity from "views/admin/healthcommunity";
 
 // Auth Imports
 import SignInCentered from "views/auth/signIn";
@@ -54,6 +55,21 @@ const routes = [
     path: "/profile",
     icon: <Icon as={MdPerson} width='20px' height='20px' color='inherit' />,
     component: Profile,
+  },
+  {
+    name: "HealthCommunity",
+    layout: "/admin",
+    path: "/index.js",
+    icon: (
+      <Icon
+        as={MdOutlineShoppingCart}
+        width='20px'
+        height='20px'
+        color='inherit'
+      />
+    ),
+    component: HealthCommunity,
+    secondary: true,
   },
   {
     name: "Sign In",

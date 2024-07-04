@@ -58,4 +58,3 @@ HealthChain qualifies under the **Fraxtal Offchain Apps** track by providing ess
 ## Final Thoughts
 
 By adapting HealthChain to use the Fraxtal blockchain, the project aligns perfectly with the goals and requirements of the Fraxtal Hackathon. This adaptation not only ensures compliance with hackathon guidelines but also leverages the unique benefits of Fraxtal, such as near-zero transaction fees and high scalability, to enhance the overall functionality and user experience of HealthChain.
-## PROOF OF DEPLOYMENT

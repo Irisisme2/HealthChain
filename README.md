@@ -58,3 +58,29 @@ HealthChain qualifies under the **Fraxtal Offchain Apps** track by providing ess
 ## Final Thoughts
 
 By adapting HealthChain to use the Fraxtal blockchain, the project aligns perfectly with the goals and requirements of the Fraxtal Hackathon. This adaptation not only ensures compliance with hackathon guidelines but also leverages the unique benefits of Fraxtal, such as near-zero transaction fees and high scalability, to enhance the overall functionality and user experience of HealthChain.
+
+## PROOF OF DEPLOYMENT
+
+# HealthChain Deployment Proof
+
+## Contract Addresses
+
+### HealthRecordContract
+- **Contract Address**: [0xedED4C7e1c6005442A29d771d7074f6841148713](https://holesky.fraxscan.com/address/0xedED4C7e1c6005442A29d771d7074f6841148713)
+- **Transaction Hash**: [0x81444c8cdf833c4105c1e9b4198c99a2407867251f7d7588eece2e47e3d606fc](https://holesky.fraxscan.com/tx/0x81444c8cdf833c4105c1e9b4198c99a2407867251f7d7588eece2e47e3d606fc)
+- **Block Number**: 10066461
+- **Gas Used**: 183557
+- **Gas Price**: 2.500000253 gwei
+- **Total Cost**: 0.000458892546439921 ETH
+
+### PermissionContract
+- **Contract Address**: [0xbC86ECDb8A7d5C7889B7CB022534364F752441CA](https://holesky.fraxscan.com/address/0xbC86ECDb8A7d5C7889B7CB022534364F752441CA)
+- **Transaction Hash**: [0xe304c51b56bf35e19e293a34456e0bb6544420c7e38139bb091b022710b206e8](https://holesky.fraxscan.com/tx/0xe304c51b56bf35e19e293a34456e0bb6544420c7e38139bb091b022710b206e8)
+- **Block Number**: 10066465
+- **Gas Used**: 192657
+- **Gas Price**: 2.500000253 gwei
+- **Total Cost**: 0.000481642548742221 ETH
+
+## Summary
+- **Total Deployments**: 2
+- **Final Cost**: 0.000940535095182142 ETH

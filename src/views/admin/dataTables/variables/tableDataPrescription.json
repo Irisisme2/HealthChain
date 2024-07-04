@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "number": "RX123456",
+    "issuedBy": "Dr. John Doe",
+    "validUntil": "2024-12-31"
+  },
+  {
+    "id": 2,
+    "number": "RX654321",
+    "issuedBy": "Dr. Jane Smith",
+    "validUntil": "2024-11-30"
+  },
+  {
+    "id": 3,
+    "number": "RX789012",
+    "issuedBy": "Dr. Michael Johnson",
+    "validUntil": "2024-10-31"
+  },
+  {
+    "id": 4,
+    "number": "RX345678",
+    "issuedBy": "Dr. Emily Brown",
+    "validUntil": "2024-09-30"
+  },
+  {
+    "id": 5,
+    "number": "RX901234",
+    "issuedBy": "Dr. Robert Lee",
+    "validUntil": "2024-08-31"
+  },
+  {
+    "id": 6,
+    "number": "RX567890",
+    "issuedBy": "Dr. Sarah Williams",
+    "validUntil": "2024-07-31"
+  },
+  {
+    "id": 7,
+    "number": "RX234567",
+    "issuedBy": "Dr. David Miller",
+    "validUntil": "2024-06-30"
+  },
+  {
+    "id": 8,
+    "number": "RX890123",
+    "issuedBy": "Dr. Lisa Martinez",
+    "validUntil": "2024-05-31"
+  },
+  {
+    "id": 9,
+    "number": "RX456789",
+    "issuedBy": "Dr. Patricia Garcia",
+    "validUntil": "2024-04-30"
+  },
+  {
+    "id": 10,
+    "number": "RX012345",
+    "issuedBy": "Dr. Christopher Brown",
+    "validUntil": "2024-03-31"
+  },
+  {
+    "id": 11,
+    "number": "RX678901",
+    "issuedBy": "Dr. Maria Rodriguez",
+    "validUntil": "2024-02-29"
+  },
+  {
+    "id": 12,
+    "number": "RX345012",
+    "issuedBy": "Dr. Daniel Wilson",
+    "validUntil": "2024-01-31"
+  },
+  {
+    "id": 13,
+    "number": "RX890123",
+    "issuedBy": "Dr. Jennifer Taylor",
+    "validUntil": "2023-12-31"
+  },
+  {
+    "id": 14,
+    "number": "RX567890",
+    "issuedBy": "Dr. Jessica Anderson",
+    "validUntil": "2023-11-30"
+  }
+]
